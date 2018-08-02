@@ -12,51 +12,17 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 		<script src="https://cdn.bootcss.com/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 		<!-- bootstrap, cdn used -->
-		<link rel="stylesheet" type="text/css" href="database/css/style.css" />
+		<script src="/database/js/click_jump_text.js"> 	
+		</script>
+		<link rel="stylesheet" type="text/css" href="/database/css/style.css" />
 		<title>五颜六色的人形使</title>
-		<link rel="shortcut icon" href="database/icon/favicon.ico" />
-		<link rel="bookmark" href="database/icon/favicon.ico" />
+		<link rel="shortcut icon" href="/database/icon/favicon.ico" />
+		<link rel="bookmark" href="/database/icon/favicon.ico" />
 		<!-- icon work -->
 		<style type="text/css">
 		</style>
 	</head>
 	<body background="https://s1.ax1x.com/2018/08/02/P0VkZT.jpg">
-		<script type="text/javascript"> 
-			$(function() {
-    			var a_idx = 0,
-					b_idx = 0,
-					c_idx = 0;
-				jQuery(document).ready(function($) {
-					$("body").click(function(e) {
-						var a = new Array("aya", "aya", "aya", "aya", "aya", "aya", "aya", "aya", "aya", "aya", "aya", "打成一行"),
-							b = new Array("#09ebfc", "#ff6651", "#ffb351", "#51ff65", "#5197ff", "#a551ff", "#ff51f7", "#ff518e", "#ff5163", "#efff51"),
-							c = new Array("12", "14", "16", "18", "20", "22", "24", "26", "28", "30");
-						var $i = $("<span/>").text(a[a_idx]);
-						a_idx = (a_idx + 1) % a.length;
-						b_idx = (b_idx + 1) % b.length;
-						c_idx = (c_idx + 1) % c.length;
-						var x = e.pageX,
-							y = e.pageY;
-						$i.css({
-							"z-index": 999,
-							"top": y - 20,
-							"left": x,
-							"position": "absolute",
-							"font-weight": "bold",
-							"font-size": c[c_idx] + "px",
-							"color": b[b_idx],
-						});
-						$("body").append($i);
-						$i.animate({
-							"top": y - 180,
-							"opacity": 0
-						}, 1500, function() {
-							$i.remove();
-						});
-					});
-				});
-			})
-		</script>
 		<div>
 			<a class="common-reflink" href="database/css/style.css">This refs to database/css/style.css</a>
 			<a class="common-reflink" href="/database/css/style.css">But this refs to /database/css/style.css</a>
