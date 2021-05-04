@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>import-existed-private-key-to-git-bash-for-windows | Hexo</title>
+  <title>Windows环境下Git bash配置现有的私钥用于进行ssh连接认证 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Windows环境下Git bash配置现有的私钥用于进行ssh连接认证一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对： 1$ ssh-keygen -t rsa  我个人在配置git环境时希望实现可以自由地选择将某个私钥导入git环境，用于ssh连接，这样配置公私钥时也更有灵活性，比如我在一台主机上使用">
+  <meta name="description" content="一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对： 1$ ssh-keygen -t rsa  我个人在配置git环境时希望实现可以自由地选择将某个私钥导入git环境，用于ssh连接，这样配置公私钥时也更有灵活性，比如我在一台主机上使用git bash生成了一对密钥，在这台主机上自动导入了私钥用于连接，但如">
 <meta property="og:type" content="article">
-<meta property="og:title" content="import-existed-private-key-to-git-bash-for-windows">
+<meta property="og:title" content="Windows环境下Git bash配置现有的私钥用于进行ssh连接认证">
 <meta property="og:url" content="http://example.com/2021/05/04/import-existed-private-key-to-git-bash-for-windows/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Windows环境下Git bash配置现有的私钥用于进行ssh连接认证一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对： 1$ ssh-keygen -t rsa  我个人在配置git环境时希望实现可以自由地选择将某个私钥导入git环境，用于ssh连接，这样配置公私钥时也更有灵活性，比如我在一台主机上使用">
+<meta property="og:description" content="一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对： 1$ ssh-keygen -t rsa  我个人在配置git环境时希望实现可以自由地选择将某个私钥导入git环境，用于ssh连接，这样配置公私钥时也更有灵活性，比如我在一台主机上使用git bash生成了一对密钥，在这台主机上自动导入了私钥用于连接，但如">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/import-existed-private-key-to-git-bash-for-windows.assets/image-20210503163526730.png">
 <meta property="og:image" content="http://example.com/import-existed-private-key-to-git-bash-for-windows.assets/image-20210503163650311.png">
 <meta property="article:published_time" content="2021-05-04T04:22:28.000Z">
-<meta property="article:modified_time" content="2021-05-04T04:22:55.918Z">
+<meta property="article:modified_time" content="2021-05-04T04:35:54.381Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/import-existed-private-key-to-git-bash-for-windows.assets/image-20210503163526730.png">
@@ -90,7 +90,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      import-existed-private-key-to-git-bash-for-windows
+      Windows环境下Git bash配置现有的私钥用于进行ssh连接认证
     </h1>
   
 
@@ -98,7 +98,7 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="Windows环境下Git-bash配置现有的私钥用于进行ssh连接认证"><a href="#Windows环境下Git-bash配置现有的私钥用于进行ssh连接认证" class="headerlink" title="Windows环境下Git bash配置现有的私钥用于进行ssh连接认证"></a>Windows环境下Git bash配置现有的私钥用于进行ssh连接认证</h1><p>一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对：</p>
+        <p>一开始在中文语境下就这个问题搜索相关文章，找到的都是在介绍用git bash生成密钥对用于ssh连接，例如下面的命令可以生成一组rsa密钥对：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
 
 <p>我个人在配置git环境时希望实现可以自由地选择将某个私钥导入git环境，用于ssh连接，这样配置公私钥时也更有灵活性，比如我在一台主机上使用git bash生成了一对密钥，在这台主机上自动导入了私钥用于连接，但如果我想在另一台主机上使用同一个私钥进行连接，而不是再生成并配置一对密钥对，就需要换一种方法。</p>
@@ -127,7 +127,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/05/04/import-existed-private-key-to-git-bash-for-windows/" data-id="cko9j11k20001z8vicic17mv3" data-title="import-existed-private-key-to-git-bash-for-windows" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/05/04/import-existed-private-key-to-git-bash-for-windows/" data-id="cko9j11k20001z8vicic17mv3" data-title="Windows环境下Git bash配置现有的私钥用于进行ssh连接认证" class="article-share-link">Share</a>
       
       
       
@@ -178,7 +178,7 @@
       <ul>
         
           <li>
-            <a href="/2021/05/04/import-existed-private-key-to-git-bash-for-windows/">import-existed-private-key-to-git-bash-for-windows</a>
+            <a href="/2021/05/04/import-existed-private-key-to-git-bash-for-windows/">Windows环境下Git bash配置现有的私钥用于进行ssh连接认证</a>
           </li>
         
           <li>
