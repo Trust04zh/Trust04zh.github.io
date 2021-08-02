@@ -6,7 +6,7 @@
   <link href="http://trust04zh.xyz/atom.xml" rel="self"/>
   
   <link href="http://trust04zh.xyz/"/>
-  <updated>2021-06-04T02:20:26.018Z</updated>
+  <updated>2021-08-02T15:30:11.734Z</updated>
   <id>http://trust04zh.xyz/</id>
   
   <author>
@@ -17,18 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2021年巅峰极客网络安全技能挑战赛部分题目writeup及赛后复现</title>
+    <link href="http://trust04zh.xyz/2021/08/02/2021dfjk-writeup/"/>
+    <id>http://trust04zh.xyz/2021/08/02/2021dfjk-writeup/</id>
+    <published>2021-08-02T09:58:00.000Z</published>
+    <updated>2021-08-02T15:30:11.734Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这次比赛时就做出&lt;code&gt;签到&lt;/code&gt;和&lt;code&gt;baby_maze&lt;/code&gt;两道题。赛后10分钟做出&lt;code&gt;MedicalImage&lt;/code&gt;，看了一下排名，要是能赛时交上这道就恰好和清华一支队伍平分，而那个分数又只有他一支队伍&lt;del&gt;也就是说差点</summary>
+        
+      
+    
+    
+    
+    
+    <category term="CTF" scheme="http://trust04zh.xyz/tags/CTF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CTFShow平台2021年Baby杯writeup及赛后复现</title>
     <link href="http://trust04zh.xyz/2021/06/04/baby-cup-2021-writeup/"/>
     <id>http://trust04zh.xyz/2021/06/04/baby-cup-2021-writeup/</id>
     <published>2021-06-04T02:04:43.000Z</published>
-    <updated>2021-06-04T02:20:26.018Z</updated>
+    <updated>2021-07-28T02:35:22.305Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;大概算是第二次比较正式的参加比赛，虽然比赛不是很正式？？？这次赛时做出了3道题，题目质量体感还不错？&lt;/p&gt;
+    <summary type="html">&lt;p&gt;大概算是第二次比较正式的参加比赛，这次赛时做出了3道题，题目质量体感还不错。&lt;/p&gt;
 &lt;p&gt;解出来的三道题是：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;五子棋&lt;/li&gt;
