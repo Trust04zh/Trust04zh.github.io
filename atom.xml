@@ -6,7 +6,7 @@
   <link href="http://trust04zh.xyz/atom.xml" rel="self"/>
   
   <link href="http://trust04zh.xyz/"/>
-  <updated>2021-08-02T15:30:11.734Z</updated>
+  <updated>2021-08-02T16:27:43.908Z</updated>
   <id>http://trust04zh.xyz/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021GoogleCTF部分赛题writeup及赛后复现</title>
+    <link href="http://trust04zh.xyz/2021/08/03/2021googlectf-writeup/"/>
+    <id>http://trust04zh.xyz/2021/08/03/2021googlectf-writeup/</id>
+    <published>2021-08-02T16:23:18.000Z</published>
+    <updated>2021-08-02T16:27:43.908Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这次比赛时做出两道题，分别是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;filestore&lt;/li&gt;
+&lt;li&gt;cpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最终排名193位&lt;del&gt;做出题就算成功&lt;/del&gt;。&lt;/p&gt;
+&lt;p&gt;因为前一段时间比较忙还有自己瞎安排时间，导致屯着几场比赛的wp写了一半，这</summary>
+        
+      
+    
+    
+    
+    
+    <category term="CTF" scheme="http://trust04zh.xyz/tags/CTF/"/>
+    
+  </entry>
   
   <entry>
     <title>2021年巅峰极客网络安全技能挑战赛部分题目writeup及赛后复现</title>
